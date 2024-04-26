@@ -1,0 +1,57 @@
+/* Updated Contact.css */
+
+.ganesh {
+  text-align: center;
+  margin-bottom: 20px; /* Increased margin for more space */
+  color: #4CAF50; /* Added text color */
+}
+
+.oggu {
+  margin-bottom: 20px; /* Increased margin for more space */
+  padding: 20px; /* Reduced padding for a more compact look */
+  box-sizing: border-box;
+  background-color: #f8f9fa; /* Changed background color to a lighter shade */
+  border: 1px solid #ced4da; /* Softened border color */
+  border-radius: 8px; /* Added border-radius for rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added a subtle box shadow */
+}
+
+/* Heading */
+.oggu h2 {
+  margin-bottom: 20px; /* Added margin below heading for separation */
+}
+
+/* Labels */
+.oggu label {
+  display: block; /* Ensures each label is on a separate line */
+  margin-bottom: 10px; /* Added margin below labels for separation */
+}
+
+/* Inputs and Textarea */
+.oggu input,
+.oggu textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px; /* Increased margin for separation between inputs */
+  border: 1px solid #ced4da; /* Softened border color */
+  border-radius: 5px; /* Added border-radius for rounded corners */
+  box-sizing: border-box;
+  resize: none; /* Disables resizing of the textarea */
+}
+
+/* Button */
+.oggu button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50; /* Changed button color to green */
+  color: #fff; /* Changed text color to white */
+  border: none;
+  border-radius: 5px; /* Added border-radius for rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Added smooth transition effect */
+}
+
+/* Button Hover */
+.oggu button:hover {
+  background-color: #45a049; /* Darkened button color on hover */
+}

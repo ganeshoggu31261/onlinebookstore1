@@ -1,0 +1,56 @@
+/* Books.css */
+
+/* Search Bar and Filter Options */
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.search {
+  width: 60%; /* Adjust width as needed */
+  padding: 8px;
+  margin-right: 10px; /* Added margin for separation */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+label {
+  margin-right: 10px; /* Added margin for separation */
+}
+
+select {
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Books Container */
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+/* Book Card */
+.book-card {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.artimg {
+  width: 100%;
+  height: 200px; /* Fixed height */
+  object-fit: cover; /* Maintain aspect ratio */
+  cursor: pointer;
+}

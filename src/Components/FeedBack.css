@@ -1,0 +1,42 @@
+/* FeedbackForm.css */
+
+.back {
+  /* background-color: #0056b3; */
+}
+
+.feedback-form-container {
+  width: 100%; /* Change width to 100% for full width */
+  max-width: 600px; /* Add max-width for responsiveness */
+  margin: 0 auto;
+  box-sizing: border-box;
+  /* background-color: #f9f9f9; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Increase padding for better spacing */
+
+  background-color: #77afeb;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px; /* Increase margin for better spacing */
+  padding: 10px;
+  resize: vertical;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+button {
+  background-color: #78c7d2;
+  color: white;
+  border: none;
+  padding: 15px 30px; /* Increase padding for better button size */
+  cursor: pointer;
+  border-radius: 5px; /* Add border-radius for button */
+  transition: background-color 0.3s ease; /* Add transition for hover effect */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
