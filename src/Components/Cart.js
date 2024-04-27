@@ -3,6 +3,7 @@ import axios from 'axios';
 import Navbar2 from './Navbar2';
 import './Cart.css';
 import { Link } from 'react-router-dom';
+import config from '../config';
 
 const Cart = () => {
   const [cart, setCart] = useState([]);

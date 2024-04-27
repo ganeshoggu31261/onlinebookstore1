@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './FeedBack.css';
 import Navbar2 from './Navbar2';
+import config from '../config';
 
 const FeedbackForm = () => {
   const [formData, setFormData] = useState({

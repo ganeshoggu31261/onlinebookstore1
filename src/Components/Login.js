@@ -4,6 +4,7 @@ import './Login.css';
 import { useNavigate, Link } from 'react-router-dom';
 import NavBar from './Navbar';
 import axios from 'axios';
+import config from '../config';
 
 const Login = () => {
   const [username, setUsername] = useState('');
