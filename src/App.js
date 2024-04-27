@@ -1,6 +1,5 @@
   import React, { useState, useEffect } from 'react';
   import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-  import NavBar from './Components/Navbar';
   import Home from './Components/Home';
   import About from './Components/About';
   import Login from './Components/Login';

@@ -44,6 +44,7 @@ const Address = ({ totalCartPrice }) => {
     const pay = new window.Razorpay(options);
     pay.open();
   };
+  Payment('')
 
   return (
     <div>

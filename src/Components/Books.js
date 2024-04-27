@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './Books.css';
 import Navbar2 from './Navbar2';
-import Cart from './Cart'; 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import config from '../config';
@@ -17,7 +16,7 @@ const Books = () => {
   useEffect(() => {
     const fetchBooks = async () => {
       try {
-        const response = await axios.get('http://localhost:8081/getbooks');
+        const response = await axios.get(`${config.url}/getbooks`);
         setBooks(response.data);
       } catch (error) {
         console.error('Error fetching books:', error);
@@ -36,6 +35,8 @@ const Books = () => {
       console.error('Error adding book to cart:', error);
     }
   };
+
+  cart = ('')
 
   const handleBookClick = (bookId) => {
     const updatedBooks = books.filter(book => book._id !== bookId);
